@@ -7,8 +7,7 @@
 
 
 ## **Web Scraping**
-Web scraping was employed to gather customer reviews and insights about Air India from the website Airline Quality. Using web scraping techniques, data was extracted from the website, including customer comments, ratings, and other relevant information, which was then compiled into the "Reviews Dataset" for further analysis, such as predicting customer buying behaviors or understanding customer sentiments towards Air India's services.
-[Reviews Dataset](https://www.airlinequality.com/airline-reviews/air-india/)
+Web scraping was employed to gather customer reviews and insights about Air India from the website [Airline Quality](https://www.airlinequality.com/airline-reviews/air-india/). Using web scraping techniques, data was extracted from the website, including customer comments, ratings, and other relevant information, which was then compiled into the "Reviews Dataset" for further analysis, such as predicting customer buying behaviors or understanding customer sentiments towards Air India's services.
 
 
 ## **Data Preprocessing**
