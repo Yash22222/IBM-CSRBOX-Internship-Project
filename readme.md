@@ -53,13 +53,31 @@ Wordcloud is basically a visualization technique to represent the frequency of w
 Predictive models are machine learning algorithms trained on high-quality customer data, requiring manipulation and preparation to accurately predict target outcomes.
 
 ### **Exploratory Data Analysis**
-Exploratory Data Analysis is a crucial step in the data analysis process, where the primary goal is to understand the data, gain insights, and identify patterns or relationships between variables.
+- Exploratory Data Analysis is a crucial step in the data analysis process, where the primary goal is to understand the data, gain insights, and identify patterns or relationships between variables.
+- Imported Chardet library(Universal Character Encoding Detector) for UTF-8 encoded code, applied to CSV, checked for null values.
+
+### **Mutual Information graphs**
+- MI score graphs visualize feature relevance to target variable, measuring dependency and aiding feature selection.
+- Scikit-learn(sklearn) library calculates MI_score correlation between attributes, and a graph is plotted for visualization purposes.
+
+<img src="https://github.com/adityabasanti/IBM-CSRBOX-Internship-Project/assets/102895768/9206150b-b50a-4197-9957-0d917629a928" width="450">
+
+### **Test & Train Model**
+- Test and train split is a crucial step in building and evaluating machine learning models, dividing dataset into training and test sets.
+- Training sets contain 70-80% of data, while test sets allocate 20-30%.
+- The code splits data into training, validation, and testing sets, ensuring model training, validation, and testing on different subsets, preventing overfitting and providing a reliable evaluation.
+
+#### **via. MinMaxScaler**
+
+
+
 
 
 
 
 ## **Libraries Utilized**
 - BeautifulSoup (bs4)
+- Chardet
 - Matplotlib → Pyplot (plt)
 - Natural Language Toolkit (nltk)
   - Corpus
@@ -68,7 +86,12 @@ Exploratory Data Analysis is a crucial step in the data analysis process, where 
   - Stem → Lemmatization (WordNetLemmatizer)
   - POS Tagging (pos_tag)
   - Tokenize (word_tokenize)
+- Numpy (np)
 - Pandas (pd)
 - Requests (re)
+- Seaborn (sns)
+- Scikit-learn (sklearn) → Feature Selection → Mutual Information Classifier
 - VaderSentiment (SentimentIntensityAnalyzer)
+- Warnings
 - WordCloud → stopwords
+- 
