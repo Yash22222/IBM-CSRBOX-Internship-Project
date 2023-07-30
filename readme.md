@@ -1,20 +1,22 @@
-# **Web Scraping for Company Insights & Predicting Customer Buying Behaviours**
+# **Web Scraping for Data Analysis & Predictive Model on Customer's Data by Tech Titans**
 
 
 ## Table of Contents
-* [Web Scraping](#web-scraping)
-* [Data Preprocessing](#data-preprocessing)
-* [Sentiment Analysis](#sentiment-analysis)
-* [Data Visualization](#data-visualization)
-* [Exploratory Data Analysis](#exploratory-data-analysis)
-* [Mutual Information graphs](#mutual-information-graphs)
-* [Test and Train Model](#test-and-train-model)
-* [Validate Model](#validate-model)
+* [Web Scraping for Data Analysis](#web-scraping-for-data-analysis)
+  * [Web Scraping](#web-scraping)
+  * [Data Preprocessing](#data-preprocessing)
+  * [Sentiment Analysis](#sentiment-analysis)
+  * [Data Visualization](#data-visualization)
+* [Predictive Modelling on Customer's Data](#predictive-modelling-on-customers-data)
+  * [Exploratory Data Analysis](#exploratory-data-analysis)
+  * [Mutual Information graphs](#mutual-information-graphs)
+  * [Test and Train Model](#test-and-train-model)
+  * [Validate Model](#validate-model)
 * [Conclusion](#conclusion)
 * [Libraries Utilized](#libraries-utilized)
 
 
-# **Web Scraping for Company Insights**
+# **Web Scraping for Data Analysis**
 
 
 ## **Web Scraping**
@@ -57,7 +59,7 @@ Wordcloud is basically a visualization technique to represent the frequency of w
 <img src="https://github.com/nilayhangarge/IBM-CSRBOX-Internship-Project/assets/88373687/d3770498-5ab5-4707-a44d-5482123565ec" width="450">
 
 
-# **Predictive Modelling on Customers Data**
+# **Predictive Modelling on Customer's Data**
 Predictive models are machine learning algorithms trained on high-quality customer data, requiring manipulation and preparation to accurately predict target outcomes.
 
 ## **Exploratory Data Analysis**
@@ -68,7 +70,7 @@ Predictive models are machine learning algorithms trained on high-quality custom
 - MI score graphs visualize feature relevance to target variable, measuring dependency and aiding feature selection.
 - Scikit-learn(sklearn) library calculates MI_score correlation between attributes, and a graph is plotted for visualization purposes.
 
-<img src="https://github.com/adityabasanti/IBM-CSRBOX-Internship-Project/assets/102895768/9206150b-b50a-4197-9957-0d917629a928" width="450">
+<img src="https://github.com/adityabasanti/IBM-CSRBOX-Internship-Project/assets/102895768/9206150b-b50a-4197-9957-0d917629a928" width="500">
 
 ## **Test and Train Model**
 - Test and train split is a crucial step in building and evaluating machine learning models, dividing dataset into training and test sets.
@@ -76,6 +78,7 @@ Predictive models are machine learning algorithms trained on high-quality custom
 - The code splits data into training, validation, and testing sets, ensuring model training, validation, and testing on different subsets, preventing overfitting and providing a reliable evaluation.
 
 **MinMaxScaler**
+
 Min-Max Scaling is a preprocessing technique for scaling numerical features to a fixed range, ensuring consistent scaling across all features.
 
 ### **via. Random Forest Classifier**
