@@ -49,6 +49,15 @@ Wordcloud is basically a visualization technique to represent the frequency of w
 <img src="https://github.com/nilayhangarge/IBM-CSRBOX-Internship-Project/assets/88373687/d3770498-5ab5-4707-a44d-5482123565ec" width="450">
 
 
+## **Predictive Modelling on Customers Data**
+Predictive models are machine learning algorithms trained on high-quality customer data, requiring manipulation and preparation to accurately predict target outcomes.
+
+### **Exploratory Data Analysis**
+Exploratory Data Analysis is a crucial step in the data analysis process, where the primary goal is to understand the data, gain insights, and identify patterns or relationships between variables.
+
+
+
+
 ## **Libraries Utilized**
 - BeautifulSoup (bs4)
 - Matplotlib → Pyplot (plt)
