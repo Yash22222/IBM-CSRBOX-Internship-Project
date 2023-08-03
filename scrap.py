@@ -122,8 +122,6 @@ def scrapper(search_result):
 if __name__ == '__main__':
 
     final_data_list = []
-
-    GOOGLE_FORM = 'https://forms.gle/M25yn1RMD3UgWyPu5'
     NULL = "None"
 
     # Scrapping data from website
