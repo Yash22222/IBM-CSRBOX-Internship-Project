@@ -64,18 +64,18 @@ Predictive models are machine learning algorithms trained on high-quality custom
 
 ## **Exploratory Data Analysis**
 - Exploratory Data Analysis is a crucial step in the data analysis process, where the primary goal is to understand the data, gain insights, and identify patterns or relationships between variables.
-- Imported Chardet library(Universal Character Encoding Detector) for UTF-8 encoded code, applied to CSV, checked for null values.
+- Imported Chardet library(Universal Character Encoding Detector) for UTF-8 encoded code, applied to CSV, and checked for null values.
 
 ## **Mutual Information graphs**
-- MI score graphs visualize feature relevance to target variable, measuring dependency and aiding feature selection.
-- Scikit-learn(sklearn) library calculates MI_score correlation between attributes, and a graph is plotted for visualization purposes.
+- MI score graphs visualize feature relevance to the target variable, measuring dependency and aiding feature selection.
+- The scikit-learn (sklearn) library calculates the MI_score correlation between attributes, and a graph is plotted for visualization purposes.
 
 <img src="https://github.com/adityabasanti/IBM-CSRBOX-Internship-Project/assets/102895768/9206150b-b50a-4197-9957-0d917629a928" width="500">
 
 ## **Test and Train Model**
-- Test and train split is a crucial step in building and evaluating machine learning models, dividing dataset into training and test sets.
+- Test and train split is a crucial step in building and evaluating machine learning models, dividing datasets into training and test sets.
 - Training sets contain 70-80% of data, while test sets allocate 20-30%.
-- The code splits data into training, validation, and testing sets, ensuring model training, validation, and testing on different subsets, preventing overfitting and providing a reliable evaluation.
+- The code splits data into training, validation, and testing sets, ensuring model training, validation, and testing on different subsets, preventing overfitting, and providing a reliable evaluation.
 
 **MinMaxScaler**
 
@@ -83,8 +83,8 @@ Min-Max Scaling is a preprocessing technique for scaling numerical features to a
 
 ### **via. Random Forest Classifier**
 Random Forest is an ensemble learning method combining multiple decision trees, capturing complex relationships and interactions for more accurate and robust models.
-- For top-6 features (Accuracy = 71.1864)
-- For all features (Accuracy = 72.8813)
+- For top-6 features (Accuracy = 74.5762)
+- For all features (Accuracy = 71.1864)
 
 ### **via. XGB(Extreme Gradient Booster) Classifier**
 XGBoost is a popular machine learning algorithm utilizing gradient boosting to optimize model performance and computational efficiency.
@@ -97,30 +97,20 @@ Validating the model on the test dataset is an essential step in the machine lea
 
 
 # **Conclusion**
-**The Random Forest classifier with top 6 features showed slightly higher accuracy than XGBoost. It can predict customer satisfaction or other target variables in datasets. Performance may vary depending on data quality and representativeness.**
+**The Random Forest classifier with the top 6 features showed slightly higher accuracy than XGBoost. It can predict customer satisfaction or other target variables in datasets. Performance may vary depending on data quality and representativeness.**
 
 
 ## **Libraries Utilized**
 - BeautifulSoup (bs4)
 - Chardet
-- Matplotlib → Pyplot (plt)
+- Matplotlib
 - Natural Language Toolkit (nltk)
-  - Corpus
-    - Stopwords
-    - Wordnet
-  - Stem → Lemmatization (WordNetLemmatizer)
-  - POS Tagging (pos_tag)
-  - Tokenize (word_tokenize)
 - Numpy (np)
 - Pandas (pd)
 - Requests (re)
 - Seaborn (sns)
 - Scikit-learn (sklearn)
-  - Ensemble → Random Forest Classifier
-  - Feature Selection → Mutual Information Classifier
-  - Model Selection → train_test_split
-  - Preprocessing → MinMaxScaler    
 - VaderSentiment (SentimentIntensityAnalyzer)
 - Warnings
-- WordCloud → stopwords
+- WordCloud
   
